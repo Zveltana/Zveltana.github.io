@@ -1,3 +1,59 @@
 @import "~tailwindcss/base";
 @import "~tailwindcss/components";
 @import "~tailwindcss/utilities";
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+.grayscale {
+  -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+  filter: grayscale(100%);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.grayscale:hover {
+  @apply py-0 px-0;
+
+  -webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
+  filter: grayscale(0%);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+#menu-toggle:checked + #menu {
+  @apply block lg:hidden;
+}
+
+#menu-toggle:checked + #connect {
+  @apply block lg:hidden;
+}
+
+nav {
+  #drop-content {
+    width: 0;
+    transition: 0.7s;
+  }
+
+  > ul li:hover #drop-content {
+    width: 100%;
+  }
+
+  > ul li:hover a #down {
+    @apply transition duration-500 rotate-180;
+  }
+
+  a {
+    text-decoration: none;
+    display: block;
+  }
+
+  div {
+    height: 3px;
+    @apply bg-pink;
+    width: 0;
+    transition: 0.7s;
+  }
+
+  li:hover>div {
+    width: 100%;
+  }
+}

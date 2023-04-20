@@ -12,6 +12,20 @@ module.exports = {
       },
       fontFamily: {
         sans: ['Inter var', ...defaultTheme.fontFamily.sans],
+        archivo: ['Archivo Black', ...defaultTheme.fontFamily.sans],
+      },
+      colors: {
+        pink: '#f1dbd6',
+        green: '#728777',
+        'dark-green': '#51665D',
+        'dark-gray': '#4B5563',
+        gray: '#6B7280',
+      },
+      backgroundImage: {
+        'marble': "url('./images/marbre.jpg')",
+      },
+      fontSize: {
+        '12xl': '10rem',
       },
     },
   },
