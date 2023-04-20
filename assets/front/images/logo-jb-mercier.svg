@@ -1,0 +1,15 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 541 491" width="541" height="491">
+	<title>favicon-svg</title>
+	<defs>
+		<image  width="541" height="491" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAh0AAAHrAQMAAABRjb09AAAAAXNSR0IB2cksfwAAAANQTFRFLdt925f5PAAAADhJREFUeJztwTEBAAAAwqD1T20JT6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAICzAYRXAAHZjEd9AAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		.s0 { fill: #fffffe } 
+		.s1 { fill: #242629 } 
+		.s2 { fill: #7f5af0 } 
+	</style>
+	<use id="Calque 1" href="#img1" x="0" y="0"/>
+	<path id="Forme 2" class="s0" d="m226 124c0-27.6 22.4-50 50-50h154c27.6 0 50 22.4 50 50v159c0 27.6-22.4 50-50 50h-154c-27.6 0-50-22.4-50-50z"/>
+	<path id="Forme 2 copy" class="s1" d="m114 244c0-27.6 22.4-50 50-50h154c27.6 0 50 22.4 50 50v159c0 27.6-22.4 50-50 50h-154c-27.6 0-50-22.4-50-50z"/>
+	<path id="Forme 2 copy 2" class="s2" d="m60 86c0-27.6 22.4-50 50-50h154c27.6 0 50 22.4 50 50v159c0 27.6-22.4 50-50 50h-154c-27.6 0-50-22.4-50-50z"/>
+</svg>

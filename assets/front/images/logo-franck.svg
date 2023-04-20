@@ -1,0 +1,19 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 421 408" width="421" height="408">
+	<title>blog-icon-svg</title>
+	<defs>
+		<image  width="512" height="512" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIAAQMAAADOtka5AAAAAXNSR0IB2cksfwAAAANQTFRFHSEdXB10wwAAADZJREFUeJztwQEBAAAAgiD/r25IQAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAfBuCAAAB0niJ8AAAAABJRU5ErkJggg=="/>
+		<linearGradient id="g1" x1="81.6" y1="75.1" x2="333.4" y2="386.1" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#ec7f00"/>
+			<stop offset="1" stop-color="#327c80"/>
+		</linearGradient>
+	</defs>
+	<style>
+		.s0 { fill: url(#g1) } 
+		.s1 { fill: #ec7f00 } 
+	</style>
+	<use id="Calque 1" href="#img1" x="-50" y="-38"/>
+	<g id="Layer">
+		<path id="Layer" class="s0" d="m346.1 174.6c-0.4 8.5-6.9 19-17.3 29.2v133.5c0 3.4-1.4 6.4-3.7 8.6-2.3 2.3-5.2 3.6-8.8 3.6h-217.6c-3.5 0-6.4-1.3-8.7-3.6-2.3-2.2-3.7-5.2-3.7-8.6v-213.4c0-3.4 1.4-6.3 3.7-8.6 2.3-2.2 5.2-3.6 8.7-3.6h115.6c9.4-12.3 20.3-24.8 32.6-36.4q0.1-0.1 0.2-0.2h-148.4c-13.6 0-26.2 5.5-35.1 14.3-9 8.8-14.6 21.1-14.6 34.5v213.4c0 13.4 5.6 25.7 14.6 34.5 8.9 8.8 21.5 14.3 35.1 14.3h217.6c13.7 0 26.3-5.5 35.2-14.3 9-8.8 14.6-21.1 14.6-34.5v-176c0 0-0.1-0.1-0.2-0.3-5.7 4.9-12.3 9.5-19.8 13.6z"/>
+		<path id="Layer" class="s1" d="m402.2 13c0 0-11.4 17.1-86.1 42.3-76.1 25.8-123 130.6-123 130.6-11.3 21.5-55.9 110.7-55.9 110.7-12.2 23.1 10.3 36.7 23.5 12.9 25.3-45.7 41.6-87.4 80.1-88.6 56.2-1.8 94.5-50.8 82.5-48.5-15.9 6.9-51 0.5-30.3-2.7 49.5-3.9 80.1-41.2 70.1-43.7-17.6 6.8-33.9 0.3-37.2-1.6 87.5-10.6 76.3-111.4 76.3-111.4z"/>
+	</g>
+</svg>
