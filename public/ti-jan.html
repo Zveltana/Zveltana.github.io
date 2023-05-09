@@ -23,81 +23,79 @@
 </head>
 <body>
     <main>
-        <section class="relative">
-            <div class="mx-auto px-4 max-w-3xl lg:max-w-7xl">
-                <nav class="text-dark-green pt-10 flex justify-between">
-                    <ul class="hidden px-4 tracking-tight text-lg sm:px-6 lg:px-8 lg:gap-x-5 lg:flex lg:items-center lg:justify-end">
-                        <li>
-                            <a href="/#me">À propos de moi</a>
-                            <div></div>
-                        </li>
-                        <li>
-                            <a href="/#techno">Mes technos</a>
-                            <div></div>
-                        </li>
-                        <li class="relative" id="drop-shadow">
-                            <a href="/#realisation" class="flex items-center">
-                                <p>Mes réalisations</p>
-                                <svg class="w-9 h-9 text-dark-green" id="down" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M9.5 10.5L12.1997 13.1997V13.1997C12.3656 13.3656 12.6344 13.3656 12.8003 13.1997V13.1997L15.5 10.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg>
-                            </a>
-                            <ul class="absolute z-10 bg-dark-green text-white border-t-4 border-pink" id="drop-content">
-                                <li><a href="/#print" class="ml-2 mt-2 hover:text-pink">Print</a></li>
-                                <li><a href="/#web" class="ml-2 mb-2 hover:text-pink">Web</a></li>
-                            </ul>
-                        </li>
+        <div class="mx-auto px-4 max-w-3xl lg:max-w-7xl">
+            <nav class="text-dark-green pt-10 flex justify-between">
+                <ul class="hidden px-4 tracking-tight text-lg sm:px-6 lg:px-8 lg:gap-x-5 lg:flex lg:items-center lg:justify-end">
+                    <li>
+                        <a href="/#me">À propos de moi</a>
+                        <div></div>
+                    </li>
+                    <li>
+                        <a href="/#techno">Mes technos</a>
+                        <div></div>
+                    </li>
+                    <li class="relative" id="drop-shadow">
+                        <a href="/#realisation" class="flex items-center">
+                            <p>Mes réalisations</p>
+                            <svg class="w-9 h-9 text-dark-green" id="down" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M9.5 10.5L12.1997 13.1997V13.1997C12.3656 13.3656 12.6344 13.3656 12.8003 13.1997V13.1997L15.5 10.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                        <ul class="absolute z-10 bg-dark-green text-white border-t-4 border-pink" id="drop-content">
+                            <li><a href="/#print" class="ml-2 mt-2 hover:text-pink">Print</a></li>
+                            <li><a href="/#web" class="ml-2 mb-2 hover:text-pink">Web</a></li>
+                        </ul>
+                    </li>
 
-                        <li>
-                            <a href="/#contact">Me contacter</a>
-                            <div></div>
-                        </li>
-                    </ul>
-                </nav>
+                    <li>
+                        <a href="/#contact">Me contacter</a>
+                        <div></div>
+                    </li>
+                </ul>
+            </nav>
 
-                <label for="menu-toggle" class="z-10 inline-block cursor-pointer mr-6 lg:hidden">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-dark-green" viewBox="0 0 28.125 29">
-                        <path fill="currentColor" class="a" d="M1.082,15.087a1.082,1.082,0,1,1,0-2.163H27.043a1.082,1.082,0,1,1,0,2.163Zm0-6.462a1.082,1.082,0,1,1,0-2.163H27.043a1.082,1.082,0,1,1,0,2.163Zm0-6.462A1.082,1.082,0,1,1,1.082,0H27.043a1.082,1.082,0,1,1,0,2.163Z" transform="translate(0 7.031)"/>
-                    </svg>
-                </label>
-            </div>
+            <label for="menu-toggle" class="z-10 inline-block cursor-pointer mr-6 lg:hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-dark-green" viewBox="0 0 28.125 29">
+                    <path fill="currentColor" class="a" d="M1.082,15.087a1.082,1.082,0,1,1,0-2.163H27.043a1.082,1.082,0,1,1,0,2.163Zm0-6.462a1.082,1.082,0,1,1,0-2.163H27.043a1.082,1.082,0,1,1,0,2.163Zm0-6.462A1.082,1.082,0,1,1,1.082,0H27.043a1.082,1.082,0,1,1,0,2.163Z" transform="translate(0 7.031)"/>
+                </svg>
+            </label>
+        </div>
 
-            <input type="checkbox" class="hidden" id="menu-toggle">
+        <input type="checkbox" class="hidden" id="menu-toggle">
 
-            <div class="absolute z-10 left-0 top-0 hidden bg-dark-green border-r-8 border-pink h-screen w-full md:w-2/4" id="menu">
-                <label for="menu-toggle" class="ml-16 mt-20 inline-block">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-white" viewBox="0 0 28.125 29">
-                        <path fill="currentColor" class="a" d="M1.082,15.087a1.082,1.082,0,1,1,0-2.163H27.043a1.082,1.082,0,1,1,0,2.163Zm0-6.462a1.082,1.082,0,1,1,0-2.163H27.043a1.082,1.082,0,1,1,0,2.163Zm0-6.462A1.082,1.082,0,1,1,1.082,0H27.043a1.082,1.082,0,1,1,0,2.163Z" transform="translate(0 7.031)"/>
-                    </svg>
-                </label>
+        <div class="absolute z-10 left-0 top-0 hidden bg-dark-green border-r-8 border-pink h-screen w-full md:w-2/4" id="menu">
+            <label for="menu-toggle" class="ml-16 mt-20 inline-block">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-white" viewBox="0 0 28.125 29">
+                    <path fill="currentColor" class="a" d="M1.082,15.087a1.082,1.082,0,1,1,0-2.163H27.043a1.082,1.082,0,1,1,0,2.163Zm0-6.462a1.082,1.082,0,1,1,0-2.163H27.043a1.082,1.082,0,1,1,0,2.163Zm0-6.462A1.082,1.082,0,1,1,1.082,0H27.043a1.082,1.082,0,1,1,0,2.163Z" transform="translate(0 7.031)"/>
+                </svg>
+            </label>
 
-                <nav class="ml-16 mt-10">
-                    <ul class="text-white tracking-tight flex flex-col justify-center gap-y-5 text-xl mx-auto max-w-3xl lg:max-w-7xl">
-                        <li>
-                            <a href="/#me">À propos de moi</a>
-                        </li>
-                        <li>
-                            <a href="/#techno">Mes technos</a>
-                        </li>
-                        <li>
-                            <a href="/#realisation" class="flex items-center">
-                                <p>Mes réalisations</p>
-                                <svg class="w-9 h-9 text-white" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M9.5 10.5L12.1997 13.1997V13.1997C12.3656 13.3656 12.6344 13.3656 12.8003 13.1997V13.1997L15.5 10.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg>
-                            </a>
-                            <ul class="text-white inline-block border-l-4 ml-3 mt-3 border-pink">
-                                <li><a href="/#print" class="ml-2 mt-2 hover:text-pink">Print</a></li>
-                                <li><a href="/#web" class="ml-2 mb-2 hover:text-pink">Web</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="/#contact">Me contacter</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-        </section>
+            <nav class="ml-16 mt-10">
+                <ul class="text-white tracking-tight flex flex-col justify-center gap-y-5 text-xl mx-auto max-w-3xl lg:max-w-7xl">
+                    <li>
+                        <a href="/#me">À propos de moi</a>
+                    </li>
+                    <li>
+                        <a href="/#techno">Mes technos</a>
+                    </li>
+                    <li>
+                        <a href="/#realisation" class="flex items-center">
+                            <p>Mes réalisations</p>
+                            <svg class="w-9 h-9 text-white" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M9.5 10.5L12.1997 13.1997V13.1997C12.3656 13.3656 12.6344 13.3656 12.8003 13.1997V13.1997L15.5 10.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                        <ul class="text-white inline-block border-l-4 ml-3 mt-3 border-pink">
+                            <li><a href="/#print" class="ml-2 mt-2 hover:text-pink">Print</a></li>
+                            <li><a href="/#web" class="ml-2 mb-2 hover:text-pink">Web</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="/#contact">Me contacter</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
 
         <section class="relative">
             <div class="py-10 mx-auto px-4 max-w-3xl lg:px-8 lg:max-w-7xl lg:py-20">
