@@ -21,6 +21,9 @@ module.exports = {
         'dark-gray': '#4B5563',
         gray: '#6B7280',
       },
+      screens: {
+        '3xl': '1700px',
+      },
       backgroundImage: {
         'marble': "url('./images/marbre.jpg')",
       },
