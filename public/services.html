@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="fr" class="scroll-smooth antialiased">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+
+    <meta name="author" property="og:title" content="Amélia MASSOT">
+    <meta name="description" property="og:description" content="Web designeuse, Graphiste, Développeuse PHP/Symfony/Front, Intégratrice">
+    <meta name="keywords" content="Symfony, PHP, Developer, Freelance, France, Lyon, Designer, Graphic designer, Print, Logo, Business card, HTML, CSS">
+    <meta name="image" property="og:image" content="build/front/images/amelia.webp">
+    <meta property="og:url" content="https://ameliamassot.github.io/">
+    <meta property="og:type" content="website">
+
+    <title>Amélia MASSOT Website</title>
+
+    <link href="build/front/app.css" rel="stylesheet">
+
+    <link href="build/front/images/favicon.ico" rel="icon">
+
+    <script src="build/front/runtime.js" defer></script>
+    <script src="build/front/app.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <main>
+        <section class="relative">
+            <div class="mx-auto max-w-3xl lg:max-w-7xl">
+                <nav class="text-dark-green flex justify-between lg:pt-10">
+                    <ul class="hidden px-4 tracking-tight text-lg sm:px-6 lg:px-8 lg:gap-x-5 lg:flex lg:items-center lg:justify-end">
+                        <a href="about.html" class="hidden bg-dark-pink rounded-lg shadow-lg active:bg-green hover:bg-dark-green hover:transition hover:duration-700 lg:block xl:-ml-10 xl:mr-10">
+                            <img src="build/front/images/chevron-up.svg" alt="chevron to go to the top of the page" class="-rotate-90 w-10 p-1" onmousedown="return false">
+                        </a>
+                        <li>
+                            <a href="/about.html#me">À propos de moi</a>
+                            <div></div>
+                        </li>
+                        <li>
+                            <a href="/about.html#techno">Mes technos</a>
+                            <div></div>
+                        </li>
+
+                        <li>
+                            <p class="text-green">Mes services</p>
+                        </li>
+
+                        <li>
+                            <a href="/about.html#contact">Me contacter</a>
+                            <div></div>
+                        </li>
+                    </ul>
+                </nav>
+
+                <label for="menu-toggle" class="inline-block cursor-pointer ml-6 mt-6 lg:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-dark-green" viewBox="0 0 28.125 29">
+                        <path fill="currentColor" class="a" d="M1.082,15.087a1.082,1.082,0,1,1,0-2.163H27.043a1.082,1.082,0,1,1,0,2.163Zm0-6.462a1.082,1.082,0,1,1,0-2.163H27.043a1.082,1.082,0,1,1,0,2.163Zm0-6.462A1.082,1.082,0,1,1,1.082,0H27.043a1.082,1.082,0,1,1,0,2.163Z" transform="translate(0 7.031)"/>
+                    </svg>
+                </label>
+            </div>
+
+            <input type="checkbox" class="hidden" id="menu-toggle">
+
+            <div class="absolute left-0 top-0 hidden bg-dark-green border-r-8 border-pink h-screen w-full md:w-2/4" id="menu">
+                <label for="menu-toggle" class="ml-6 mt-6 inline-block">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-white" viewBox="0 0 28.125 29">
+                        <path fill="currentColor" class="a" d="M1.082,15.087a1.082,1.082,0,1,1,0-2.163H27.043a1.082,1.082,0,1,1,0,2.163Zm0-6.462a1.082,1.082,0,1,1,0-2.163H27.043a1.082,1.082,0,1,1,0,2.163Zm0-6.462A1.082,1.082,0,1,1,1.082,0H27.043a1.082,1.082,0,1,1,0,2.163Z" transform="translate(0 7.031)"/>
+                    </svg>
+                </label>
+
+                <nav class="ml-16 mt-10">
+                    <ul class="text-white tracking-tight flex flex-col justify-center gap-y-5 text-xl mx-auto max-w-3xl lg:max-w-7xl">
+                        <a href="about.html" class="w-11 bg-dark-pink mt-10 rounded-lg shadow-lg active:bg-green hover:bg-dark-green hover:transition hover:duration-700 lg:block">
+                            <img src="build/front/images/chevron-up.svg" alt="chevron to go to the top of the page" class="-rotate-90 w-10 p-1" onmousedown="return false">
+                        </a>
+                        <li>
+                            <a href="/about.html#me">À propos de moi</a>
+                        </li>
+                        <li>
+                            <a href="/about.html#techno">Mes technos</a>
+                        </li>
+                        <li>
+                            <p class="text-green">Mes services</p>
+                        </li>
+                        <li>
+                            <a href="/about.html#contact">Me contacter</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="mb-12 mx-auto px-4 max-w-3xl lg:px-8 lg:max-w-7xl">
+                <div class="pt-10 flex gap-3 items-center justify-center py-10 md:pt-32">
+                    <h1 class="text-green/20 font-archivo text-4xl md:text-8xl lg:text-9xl">Mes Services</h1>
+                </div>
+
+                <div class="grid grid-cols-1 gap-8 md::grid-cols-2 lg:grid-cols-3">
+                    <article class="flow-root rounded-lg bg-pink px-6 pb-8">
+                        <h2 class="mt-8 text-xl font-extrabold tracking-tight text-black text-center">Développement</h2>
+                        <h3 class="text-black text-base text-center">TJ : 400€</h3>
+                        <table class="table-auto mt-10 text-black text-lg">
+                            <tbody>
+                                <tr>
+                                    <td class="">Intégration</td>
+                                </tr>
+                                <tr>
+                                    <td class="">Site Vitrine</td>
+                                </tr>
+                                <tr>
+                                    <td class="">Blog</td>
+                                </tr>
+                                <tr>
+                                    <td class="">Portfolio</td>
+                                </tr>
+                                <tr>
+                                    <td class="">Wordpress</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </article>
+
+                    <article class="flow-root rounded-lg bg-green px-6 pb-8">
+                        <h2 class="mt-8 text-xl font-extrabold tracking-tight text-black text-center">Web Design</h2>
+                        <h3 class="text-black text-base text-center">TJ : 300€</h3>
+                        <table class="table-auto mt-10 text-black text-lg">
+                            <tbody>
+                                <tr>
+                                    <td class="">Maquette PS</td>
+                                </tr>
+                                <tr>
+                                    <td class="">Maquette Adobe XD</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </article>
+
+                    <article class="flow-root rounded-lg bg-dark-green px-6 pb-8">
+                        <h2 class="mt-8 text-xl font-extrabold tracking-tight text-white text-center">Graphisme</h2>
+                        <h3 class="text-white text-base text-center">Prix/heure : 40€</h3>
+                        <table class="table-auto mt-10 text-white text-lg">
+                            <thead>
+                              <tr>
+                                <th class="uppercase text-left">Web</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="">Logo</td>
+                                </tr>
+                                <tr>
+                                    <td class="">Bannière</td>
+                                </tr>
+                                <tr>
+                                    <td class="">Créations Visuels</td>
+                                </tr>
+                                <tr>
+                                    <td class="">Charte Graphique</td>
+                                </tr>
+                                <tr>
+                                    <td class="">Documents RH</td>
+                                </tr>
+                                <tr>
+                                    <td class="">Documents de présentations (PPT)</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <table class="table-auto mt-10 text-white text-lg">
+                            <thead>
+                              <tr>
+                                <th class="uppercase text-left">Print</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Affiche</td>
+                                </tr>
+                                <tr>
+                                    <td>Flyer</td>
+                                </tr>
+                                <tr>
+                                    <td>Carte de visite | recto/verso</td>
+                                </tr>
+                                <tr>
+                                    <td>Goodies</td>
+                                </tr>
+                                <tr>
+                                    <td>Plaquettes Commerciales</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </article>
+                </div>
+            </div>
+
+            <img src="build/front/images/branche.svg" alt="" class="hidden absolute top-0 right-0 w-2/5 md:block">
+        </section>
+    </main>
+
+    <footer class="bg-marble bg-cover relative z-30">
+        <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8">
+            <div class="mt-8 text-center md:mt-0 md:order-1">
+                <a href="infos-legales.html" class="text-base text-dark-green hover:text-green">Informations Légales</a>
+            </div>
+
+            <div class="mt-8 md:mt-0 md:order-1">
+                <p class="text-center text-base text-dark-green">&copy; 2023 Amélia MASSOT</p>
+            </div>
+        </div>
+    </footer>
+</body>

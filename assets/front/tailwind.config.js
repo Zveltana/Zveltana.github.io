@@ -16,6 +16,7 @@ module.exports = {
       },
       colors: {
         pink: '#f1dbd6',
+        'dark-pink': '#e4bab0',
         green: '#728777',
         'dark-green': '#51665D',
         'dark-gray': '#4B5563',
@@ -26,9 +27,17 @@ module.exports = {
       },
       backgroundImage: {
         'marble': "url('./images/marbre.jpg')",
+        'plante': "url('./images/plante.png')",
+        'plantes': "url('./images/plantes.png')",
+        'p25-femme': "url('./images/realisations/P25-femme.jpg')",
       },
       fontSize: {
         '12xl': '10rem',
+        '10xl': '8rem',
+      },
+      screens: {
+        'tablet': '1350px',
+        '16/9': '1800px',
       },
     },
   },
